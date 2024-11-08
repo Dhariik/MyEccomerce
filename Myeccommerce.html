@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My eCommerce Store</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 90%; max-width: 1200px; margin: auto; }
+        header { background: #333; color: #fff; padding: 1em 0; text-align: center; }
+        header h1 { font-size: 2rem; }
+        nav { text-align: center; padding: 0.5em; background: #555; }
+        nav a { color: #fff; margin: 0 1em; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        .hero { text-align: center; padding: 2em; background: #f4f4f4; }
+        .hero h2 { font-size: 1.5rem; margin-bottom: 1em; }
+        .products { display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; padding: 2em 0; }
+        .product { background: #fff; border: 1px solid #ddd; padding: 1em; width: 250px; text-align: center; }
+        .product img { width: 100%; height: auto; }
+        .product h3 { margin: 0.5em 0; font-size: 1.2rem; }
+        .product p { color: #555; }
+        .product button { background: #333; color: #fff; padding: 0.5em 1em; border: none; cursor: pointer; }
+        .product button:hover { background: #555; }
+        footer { background: #333; color: #fff; text-align: center; padding: 1em; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My eCommerce Store</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Welcome to Our Store!</h2>
+        <p>Discover our latest products and amazing deals.</p>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="container products" id="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$29.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$39.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My eCommerce Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
