@@ -43,7 +43,7 @@ My site will now be accessible at http://localhost:8088.
 
 
 ## Accessing the Site
-Once the container is running, I visit http://localhost:8080 to see my eCommerce website.
+Once the container is running, I visit http://localhost:8088 to see my eCommerce website.
 
 ![Screenshot 2024-11-08 133347-01](https://github.com/user-attachments/assets/a3fcf2de-17c4-4871-aeb4-ad004d5a5205)
 
